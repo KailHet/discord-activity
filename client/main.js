@@ -1,4 +1,5 @@
 async function appendGuildAvatar() {
+    console.log('1');
     const app = document.querySelector('#app');
   
     // 1. From the HTTP API fetch a list of all of the user's guilds
